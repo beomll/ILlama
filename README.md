@@ -57,13 +57,26 @@ asyncio.run(main())
 ## 📜 Citation
 If you find this work helpful, please consider citing us:
 ```bibtex
-@inproceedings{
-  park2025leveraging,
-  title={Leveraging Knowledge Graph-Enhanced {LLM}s for Context-Aware Medical Consultation},
-  author={Su-Hyeong Park and Ho-Beom Kim and Seong-Jin Park and Dinara Aliyeva and Kang-Min Kim},
-  booktitle={The 2025 Conference on Empirical Methods in Natural Language Processing},
-  year={2025},
-  url={https://openreview.net/forum?id=fEOxao65k9}
+@inproceedings{park-etal-2025-leveraging-knowledge,
+    title = "Leveraging Knowledge Graph-Enhanced {LLM}s for Context-Aware Medical Consultation",
+    author = "Park, Su-Hyeong  and
+      Kim, Ho-Beom  and
+      Park, Seong-Jin  and
+      Aliyeva, Dinara  and
+      Kim, Kang-Min",
+    editor = "Christodoulopoulos, Christos  and
+      Chakraborty, Tanmoy  and
+      Rose, Carolyn  and
+      Peng, Violet",
+    booktitle = "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2025",
+    address = "Suzhou, China",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.emnlp-main.1549/",
+    pages = "30447--30463",
+    ISBN = "979-8-89176-332-6",
+    abstract = "Recent advancements in large language models have significantly influenced the field of online medical consultations. However, critical challenges remain, such as the generation of hallucinated information and the integration of up-to-date medical knowledge. To address these issues, we propose **I**nformatics **Llama** (ILlama), a novel framework that combines retrieval-augmented generation with a structured medical knowledge graph. ILlama incorporates relevant medical knowledge by transforming subgraphs from a structured medical knowledge graph into text for retrieval-augmented generation. By generating subgraphs from the medical knowledge graph in advance, specifically focusing on diseases and symptoms, ILlama is able to enhance the accuracy and relevance of its medical reasoning. This framework enables effective incorporation of causal relationships between symptoms and diseases. Also, it delivers context-aware consultations aligned with user queries. Experimental results on the two medical consultation datasets demonstrate that ILlama outperforms the strong baselines, achieving a semantic similarity F1-score of 0.884 when compared with ground truth consultation answers. Furthermore, qualitative analysis of ILlama{'}s responses reveals significant improvements in hallucination reduction and clinical usefulness. These results suggest that ILlama has strong potential as a reliable tool for real-world medical consultation environments."
 }
 ```
 
