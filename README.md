@@ -81,4 +81,4 @@ If you find this work helpful, please consider citing us:
 ```
 
 ## 📬 Contact
-Email: hobeom2001@catholic.ac.kr
+Email: {pshpulip22, hobeom2001}@catholic.ac.kr
